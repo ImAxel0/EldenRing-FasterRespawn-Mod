@@ -1,0 +1,9 @@
+0x74, MASKED, 0xf3, 0x0f, 0x10, 0x19 x?xxxx
+
+ORIGINAL BYTES:
+
+7FF70B1C10C1 - 74 06                 - je 7FF70B1C10C9
+
+PATCHED BYTES:
+
+7FF70B1C10C1 - EB 06                 - jmp 7FF70B1C10C9
